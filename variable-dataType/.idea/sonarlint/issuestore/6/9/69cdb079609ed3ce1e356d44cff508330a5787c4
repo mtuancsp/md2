@@ -1,0 +1,28 @@
+
+7
+java:S1220""Move this file to a named package.8­††¤ğ0
+W
+java:S1854"5Remove this useless assignment to local variable "s".(ûœ‰°ÿÿÿÿÿ8°††¤ğ0
+W
+java:S1854"5Remove this useless assignment to local variable "c".(¦À­Çùÿÿÿÿ8°††¤ğ0
+R
+java:S1854"5Remove this useless assignment to local variable "d".(ˆ»„ğ8°††¤ğ0
+W
+java:S1854"5Remove this useless assignment to local variable "f".(ˆ®Øûÿÿÿÿ8°††¤ğ0
+H
+java:S1481"&Remove this unused "f" local variable.(ˆ®Øûÿÿÿÿ8±††¤ğ0
+C
+java:S1481"&Remove this unused "d" local variable.(ˆ»„ğ8±††¤ğ0
+C
+java:S1481"&Remove this unused "b" local variable.(ÛºŠê8±††¤ğ0
+H
+java:S1481"&Remove this unused "c" local variable.(¦À­Çùÿÿÿÿ8±††¤ğ0
+H
+java:S1481"&Remove this unused "s" local variable.(ûœ‰°ÿÿÿÿÿ8±††¤ğ0
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(Ğö¶üÿÿÿÿ8‡¢‡¤ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ãÊ•şÿÿÿÿÿ8Øù‡¤ğ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(Æ¿éŸ8Ùù‡¤ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(•Šî¾øÿÿÿÿ8Ùù‡¤ğ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¿Î´m8Ùù‡¤ğ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.( “§ãùÿÿÿÿ8Ùù‡¤ğ0

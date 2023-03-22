@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c6a31972-9de3-4262-ae1a-95f03a119d1a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/tuan1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/tuan1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator-expression/out/production/tuan1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable-dataType/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../variable-dataType/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable-dataType/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../variable-dataType/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../variable-dataType/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../variable-dataType/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NLuctg61L1yBGOnhZyqvS9eTAI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6a31972-9de3-4262-ae1a-95f03a119d1a" name="Changes" comment="" />
+      <created>1679455766605</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679455766605</updated>
+      <workItem from="1679455768555" duration="102000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
