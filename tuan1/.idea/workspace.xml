@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/org/example/FindMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/Printf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/Printf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/ConvertTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/ConvertTemperature.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/DrawingMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/DrawingMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/FindElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/FindMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/FindMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/GCD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/GCD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/InterestCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/InterestCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/PrintPrimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/PrintPrimes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/Printf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Printf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +89,8 @@
       <workItem from="1679494201726" duration="84000" />
       <workItem from="1679494293953" duration="4751000" />
       <workItem from="1679540406710" duration="5484000" />
-      <workItem from="1679555922345" duration="7974000" />
+      <workItem from="1679555922345" duration="8563000" />
+      <workItem from="1679576869310" duration="367000" />
     </task>
     <servers />
   </component>
