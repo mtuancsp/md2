@@ -2,8 +2,12 @@ package org.example;
 
 public class Printf {
     public static void main(String[] args) {
-        int x = 666;
-        double y = 33.99;
-        System.out.printf("%d %.1f", x, y);
+        int[][] matrix = new int[10][10];
+        for (int row = 0; row < matrix.length; row++) {
+            for (int column = 0; column < matrix[row].length; column++) {
+                matrix[row][column] = (int) (Math.random() * 100);
+            }
+        }
+        System.out.print(matrix[3][6]);
     }
 }
