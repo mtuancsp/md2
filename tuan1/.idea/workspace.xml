@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/example/FindMin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/FindElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/FindElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/ReverseArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/ReverseArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/ConcatArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/ConcatArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/CountElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/CountElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/CountStudents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/CountStudents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/DeleteElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/DeleteElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/FindElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/FindMax2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/FindMax2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/InsertElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/InsertElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/ReverseArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/SumColumn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/SumColumn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/SumMainDiagonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/SumMainDiagonal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +101,8 @@
       <workItem from="1679494293953" duration="4751000" />
       <workItem from="1679540406710" duration="5484000" />
       <workItem from="1679555922345" duration="8563000" />
-      <workItem from="1679576869310" duration="367000" />
+      <workItem from="1679576869310" duration="9991000" />
+      <workItem from="1679619843537" duration="7270000" />
     </task>
     <servers />
   </component>
@@ -106,6 +118,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.util.InputMismatchException" package="java.util" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>

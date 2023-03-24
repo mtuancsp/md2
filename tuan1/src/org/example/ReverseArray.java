@@ -3,6 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class ReverseArray {
+
     public static void main(String[] args) {
         int size;
         int[] array;
@@ -21,8 +22,8 @@ public class ReverseArray {
             i++;
         }
         System.out.printf("%-20s%s", "Elements in array: ", "");
-        for (int j = 0; j < array.length; j++) {
-            System.out.print(array[j] + "\t");
+        for (int e : array) {
+            System.out.print(e + "\t");
         }
         for (int j = 0; j < array.length / 2; j++) {
             int temp = array[j];
@@ -30,8 +31,8 @@ public class ReverseArray {
             array[size - 1 - j] = temp;
         }
         System.out.printf("\n%-20s%s", "Reverse array: ", "");
-        for (int j = 0; j < array.length; j++) {
-            System.out.print(array[j] + "\t");
+        for (int e :  array) {
+            System.out.print(e + "\t");
         }
     }
 }

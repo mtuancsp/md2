@@ -6,7 +6,7 @@ public class DeleteElement {
         for (int e : arr) {
             if (e == element) {
                 count++;
-            }in
+            }
         }
         if (count == 0) {
             System.out.println("Element not found in array");

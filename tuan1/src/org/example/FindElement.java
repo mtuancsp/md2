@@ -2,8 +2,10 @@ package org.example;
 
 import java.util.Scanner;
 
+
 public class FindElement {
     public static void main(String[] args) {
+
         String[] students = {"Christian", "Michael", "Camila", "Sienna", "Tanya", "Connor", "Zachariah", "Mallory", "Zoe", "Emily"};
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a name’s student:");
@@ -16,5 +18,6 @@ public class FindElement {
             }
         }
         System.out.println(input_name + " is not found in the list.");
+
     }
 }
