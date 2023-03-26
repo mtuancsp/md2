@@ -1,27 +1,21 @@
 package org.example;
 
-import java.math.BigInteger;
-import java.util.Scanner;
 
-public class Test {
-    // check number is prime
-    public static boolean isPrime(int n) {
-        if (n <= 1) {
-            return false;
-        }
-        for (int i = 2; i * i <= n; i++) {
-            if (n % i == 0) {
-                return false;
-            }
-        }
-        return true;
+class Test {
+    int rollno;
+    String name;
+    static String college = "BachKhoa";
+
+
+    void display() {
+        System.out.println(rollno + " " + name + " " + college);
     }
-    // print number prime numbers
-    public static void printPrime(int n) {
-        for (int i = 2; i <= n; i++) {
-            if (isPrime(i)) {
-                System.out.print(i + " ");
-            }
-        }
+
+    public static void main(String args[]) {
+        Student s1 = new Student(111, "Hoang");
+        Student s2 = new Student(222, "Thanh");
+        s1.display();
+        s2.display();
     }
 }
+

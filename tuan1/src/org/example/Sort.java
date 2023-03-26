@@ -36,7 +36,7 @@ public class Sort {
         if (left >= right)
             return;
 
-        int threshold = 50;
+        int threshold = 100;
         if (right - left + 1 < threshold) {
             insertionSort(arr, left, right);
             return;
