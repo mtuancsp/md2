@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/example/Student2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/TestStudent2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/OuterClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/TestStudent2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/TestStudent2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/Student2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Student2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/TestCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/TestCircle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/TestStaticMethod.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/TestStaticProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/example/TestStudent2.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +126,7 @@
       <workItem from="1679734171961" duration="4282000" />
       <workItem from="1679751243129" duration="4461000" />
       <workItem from="1679793809780" duration="4220000" />
-      <workItem from="1679814012934" duration="2598000" />
+      <workItem from="1679814012934" duration="4731000" />
     </task>
     <servers />
   </component>
