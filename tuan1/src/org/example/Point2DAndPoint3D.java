@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.Arrays;
 
 class Point2D {

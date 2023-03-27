@@ -65,7 +65,7 @@
       </method>
     </configuration>
     <configuration name="Point2DAndPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Point2DAndPoint3D" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Point2DAndPoint3D" />
       <module name="tuan1" />
       <method v="2">
         <option name="Make" enabled="true" />
