@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/example/MoveablePoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point2D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point2DAndPoint3D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point3D.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Triangle">
     <configuration name="CircleAndCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CircleAndCylinder" />
       <module name="tuan1" />
@@ -70,19 +67,6 @@
     <configuration name="Point2DAndPoint3D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Point2DAndPoint3D" />
       <module name="tuan1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SquareTest" />
-      <module name="tuan1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,16 +97,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Triangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Triangle" />
+      <module name="tuan1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test3.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="test3.js" working-dir="$PROJECT_DIR$/../../../c0223-md1test">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Triangle" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Point2DAndPoint3D" />
         <item itemvalue="Application.CircleAndCylinder" />
         <item itemvalue="Application.TestCircleAndCylinder" />
-        <item itemvalue="Application.SquareTest" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +174,7 @@
       <workItem from="1679878672834" duration="13668000" />
       <workItem from="1679921456793" duration="1343000" />
       <workItem from="1679922814337" duration="896000" />
-      <workItem from="1679923722884" duration="2549000" />
+      <workItem from="1679923722884" duration="5599000" />
     </task>
     <servers />
   </component>
