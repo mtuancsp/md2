@@ -19,9 +19,9 @@ public class StopWatch {
     }
 
     public static void main(String[] args) {
-        int[] array = new int[10000000];
+        int[] array = new int[100000];
         for (int i = 0; i < array.length; i++) {
-            array[i] = (int) (Math.random() * 10000000);
+            array[i] = (int) (Math.random() * 100000);
         }
 
         StopWatch stopwatch = new StopWatch();
@@ -31,7 +31,7 @@ public class StopWatch {
 //        Sort.insertionSort(array, 0, array.length - 1);
         Arrays.sort(array);
 //        Sort.quickSort(array, 0, array.length - 1);
-        System.out.println(Arrays.toString(array));
+//        System.out.println(Arrays.toString(array));
         stopwatch.stop();
 
         System.out.printf("Elapsed time: %d milliseconds", stopwatch.getElapsedTime());
