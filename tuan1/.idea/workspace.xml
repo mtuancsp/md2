@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Point2DAndPoint3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/MoveablePoint.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point2D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point2DAndPoint3D.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/Point3D.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Point2DAndPoint3D">
+  <component name="RunManager">
     <configuration name="CircleAndCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CircleAndCylinder" />
       <module name="tuan1" />
@@ -71,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.RectangleTest" />
+    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.SquareTest" />
       <module name="tuan1" />
       <extension name="coverage">
         <pattern>
@@ -84,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SquareTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.SquareTest" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Test" />
       <module name="tuan1" />
       <extension name="coverage">
         <pattern>
@@ -115,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Point2DAndPoint3D" />
         <item itemvalue="Application.CircleAndCylinder" />
         <item itemvalue="Application.TestCircleAndCylinder" />
         <item itemvalue="Application.SquareTest" />
-        <item itemvalue="Application.RectangleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +177,7 @@
       <workItem from="1679878672834" duration="13668000" />
       <workItem from="1679921456793" duration="1343000" />
       <workItem from="1679922814337" duration="896000" />
-      <workItem from="1679923722884" duration="642000" />
+      <workItem from="1679923722884" duration="2549000" />
     </task>
     <servers />
   </component>
