@@ -41,7 +41,7 @@ public class MoveablePoint extends Point2D {
 
 }
 
-class Test {
+class TestMovablePoint {
     public static void main(String[] args) {
         MoveablePoint p = new MoveablePoint(1, 2, 3, 4);
         System.out.println(p);
