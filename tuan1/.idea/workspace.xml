@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/example/AnimalAndEdible.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/TestInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/example/TestStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/example/TestComparableCircle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/MoveablePoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/MoveablePoint.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +50,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CircleAndCylinder">
     <configuration name="CircleAndCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CircleAndCylinder" />
       <module name="tuan1" />
@@ -182,7 +178,8 @@
       <workItem from="1679969639309" duration="3027000" />
       <workItem from="1679985982082" duration="3698000" />
       <workItem from="1680011227379" duration="565000" />
-      <workItem from="1680011806419" duration="3275000" />
+      <workItem from="1680011806419" duration="4702000" />
+      <workItem from="1680018666016" duration="18000" />
     </task>
     <servers />
   </component>
