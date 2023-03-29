@@ -17,6 +17,9 @@ public class Main {
             System.out.println(shape.getClass().getSimpleName() + " area after-resized: " + shape.getArea());
         }
 
+        System.out.println(((Square)shapes[4]).howToColor());
+
+
     }
 }
 

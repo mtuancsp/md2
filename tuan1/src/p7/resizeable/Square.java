@@ -1,6 +1,7 @@
 package p7.resizeable;
 
-public class Square extends Shape implements Resizeable {
+public class Square extends Shape implements Resizeable, Colorable {
+
     private double side = 1.0;
     private String color = "green";
     private boolean filled = true;
@@ -34,5 +35,10 @@ public class Square extends Shape implements Resizeable {
     @Override
     public double getArea() {
         return side * side;
+    }
+
+    @Override
+    public String howToColor() {
+        return "Color the square along parallel lines";
     }
 }

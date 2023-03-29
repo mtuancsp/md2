@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Resizeable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p7/resizeable/Colorable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/Square.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/SquareTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/SquareTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p7/resizeable/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p7/resizeable/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +181,7 @@
       <workItem from="1680011227379" duration="565000" />
       <workItem from="1680011806419" duration="4702000" />
       <workItem from="1680018666016" duration="1282000" />
-      <workItem from="1680052083687" duration="8218000" />
+      <workItem from="1680052083687" duration="9419000" />
     </task>
     <servers />
   </component>
