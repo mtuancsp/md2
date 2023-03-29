@@ -2,13 +2,12 @@ package org.example;
 
 import java.util.Arrays;
 
-
 public class TestComparableCircle {
     public static void main(String[] args) {
         ComparableCircle[] circles = new ComparableCircle[3];
         circles[0] = new ComparableCircle(3.6, "blue", false);
         circles[1] = new ComparableCircle();
-        circles[2] = new ComparableCircle(3.5, "red", true);
+        circles[2] = new ComparableCircle(3.5);
         System.out.println(circles[0].compareTo(circles[1]));
         System.out.println("Pre-sorted:");
         for (ComparableCircle c : circles) {
@@ -23,7 +22,6 @@ public class TestComparableCircle {
 }
 class ComparableCircle extends Circles implements Comparable<ComparableCircle> {
     public ComparableCircle() {
-
     }
     public ComparableCircle(double radius) {
         super(radius);
