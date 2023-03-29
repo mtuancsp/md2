@@ -162,16 +162,16 @@ class RectangleTest {
     }
 }
 
-class Square extends Rectangles {
+class Squares extends Rectangles {
     private double side;
-    public Square() {
+    public Squares() {
     }
 
-    public Square(double side) {
+    public Squares(double side) {
         super(side, side);
     }
 
-    public Square(double side, String color, boolean filled) {
+    public Squares(double side, String color, boolean filled) {
         super(color, filled, side, side);
     }
 
@@ -204,7 +204,7 @@ class Square extends Rectangles {
 
 class SquareTest {
     public static void main(String[] args) {
-        Square square = new Square();
+        Squares square = new Squares();
         square.setSide(5.0);
         System.out.println(square);
     }
