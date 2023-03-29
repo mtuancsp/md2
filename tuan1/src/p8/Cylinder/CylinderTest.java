@@ -1,4 +1,4 @@
-package p8.Cylinder;
+package p8.cylinder;
 
 public class CylinderTest {
     public static void main(String[] args) {
