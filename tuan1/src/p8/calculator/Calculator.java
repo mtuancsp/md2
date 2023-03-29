@@ -1,4 +1,4 @@
-package p8;
+package p8.calculator;
 
 public class Calculator {
     public static final char ADDITION = '+';

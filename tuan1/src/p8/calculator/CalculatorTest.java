@@ -1,4 +1,6 @@
-package p8;
+package p8.calculator;
+
+import p8.calculator.Calculator;
 
 public class CalculatorTest {
     public static void main(String[] args) {
