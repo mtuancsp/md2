@@ -1,4 +1,4 @@
-package p7.resizeable;
+package p7.resizeable_colorable;
 
 public class Rectangle extends Shape implements Resizeable {
     private double width = 2.0;

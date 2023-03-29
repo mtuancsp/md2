@@ -1,4 +1,4 @@
-package p7.resizeable;
+package p7.resizeable_colorable;
 
 public class Square extends Shape implements Resizeable, Colorable {
 

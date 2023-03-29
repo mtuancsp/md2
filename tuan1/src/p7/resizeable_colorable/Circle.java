@@ -1,4 +1,4 @@
-package p7.resizeable;
+package p7.resizeable_colorable;
 
 public class Circle extends Shape implements Resizeable {
     private double radius = 1.0;
