@@ -34,9 +34,11 @@ public class MoveablePoint extends Point2D {
     public String toString() {
         return "(" + getX() + ", " + getY() + ")";
     }
-    public void move() {
+    public MoveablePoint move() {
         setX(getX() + getXSpeed());
         setY(getY() + getYSpeed());
+        return this;
+
     }
 
 }
@@ -47,7 +49,7 @@ class TestMovablePoint {
         System.out.println(p);
         p.move();
         p.setSpeed(5, 6);
-        p.move();
+        System.out.println(p.move());
         p.move();
         System.out.println(p);
     }
