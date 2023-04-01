@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="">
+    <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/CircleComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/CircleComparator.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/CircleComparatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/CircleComparatorTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/MoveablePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/MoveablePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/org/example/TestMovablePoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/org/example/TestMovablePoint.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/p8/Cylinder/Cylinder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/p8/Cylinder/Cylinder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/tuan1/p8/Cylinder/CylinderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/p8/Cylinder/CylinderTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/example/CircleComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/example/CircleComparator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p7/comparable/CircleTestComparable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p7/comparable/CircleTestComparable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuan1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/tuan1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/p10/linked_list/MyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/p10/linked_list/MyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/p10/linked_list/MyLinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/p10/linked_list/MyLinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p10/linked_list/MyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p10/linked_list/MyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p10/linked_list/MyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p10/linked_list/MyLinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +28,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -49,29 +50,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/thiThucHanhMd1/thucHanh1.html&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/Codegym/thiThucHanhMd1/thucHanh1.html",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.CircleAndCylinder">
+}]]></component>
+  <component name="RunManager">
     <configuration name="CircleAndCylinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.CircleAndCylinder" />
       <module name="tuan1" />
@@ -148,8 +149,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionExample" />
         <item itemvalue="Application.CircleAndCylinder" />
+        <item itemvalue="Application.CollectionExample" />
         <item itemvalue="JUnit.CalculatorTest.whenAssertingConditions_thenVerified" />
         <item itemvalue="JUnit.CalculatorTest.whenAssertingArraysEquality_thenEqual" />
         <item itemvalue="Application.Triangle" />
@@ -229,8 +230,26 @@
       <workItem from="1680314119634" duration="904000" />
       <workItem from="1680315034576" duration="36000" />
       <workItem from="1680315079458" duration="26000" />
-      <workItem from="1680315114701" duration="54000" />
+      <workItem from="1680315114701" duration="728000" />
+      <workItem from="1680315852779" duration="761000" />
+      <workItem from="1680316624015" duration="197000" />
+      <workItem from="1680316829978" duration="6110000" />
     </task>
+    <task id="LOCAL-00001" summary="a">
+      <created>1680315190602</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680315190602</updated>
+    </task>
+    <task id="LOCAL-00002" summary="a">
+      <created>1680315210699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680315210699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,6 +274,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.IndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
