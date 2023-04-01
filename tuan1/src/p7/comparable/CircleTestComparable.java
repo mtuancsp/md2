@@ -9,6 +9,7 @@ public class CircleTestComparable {
         circles.add(new Circle(4));
         circles.add(new Circle());
         circles.add(new Circle(3.7));
+        circles.add(new Circle(3.3));
 
 
         System.out.println("Pre-sorted:");
