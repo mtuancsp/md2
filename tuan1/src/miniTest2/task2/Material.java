@@ -35,8 +35,8 @@ public abstract class Material implements Discount {
     public void edit(){
         Scanner input = new Scanner(System.in);
 
-        System.out.println("\nEdit Material ID: " + getId());
-        System.out.print("Enter new id: ");
+        System.out.println("Edit Material ID: " + getId());
+        System.out.print("Enter new ID: ");
         String newId = input.nextLine();
         System.out.print("Enter new name: ");
         String newName = input.nextLine();
@@ -74,7 +74,7 @@ public abstract class Material implements Discount {
     @Override
     public String toString() {
         return "Material " +
-                "id = '" + id + '\'' +
+                "ID = '" + id + '\'' +
                 ", name = '" + name + '\'' +
                 ", manufacturingDate = " + manufacturingDate +
                 ", cost = " + cost;
