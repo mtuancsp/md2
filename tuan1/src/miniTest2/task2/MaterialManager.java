@@ -2,36 +2,17 @@ package miniTest2.task2;
 
 import java.util.ArrayList;
 
-public class MaterialManager {
-    private final ArrayList<Material> materials;
-
-    public MaterialManager() {
-        materials = new ArrayList<>();
-    }
-
-    public Material get(int i) {
-        return materials.get(i);
-    }
-
-    public void add(Material material) {
-        materials.add(material);
-    }
-
-    public Material remove(int i) {
-        var temp = materials.get(i);
-        materials.remove(i);
-        return temp;
-    }
+public class MaterialManager extends ArrayList<Material> {
 
     public void edit(int i) {
-        System.out.println("\nEdit material" + materials.get(i));
-        materials.get(i).edit();
+        System.out.println("\nEdit material" + get(i));
+        get(i).edit();
     }
 
     public double getTotalDiscountedPrice() {
         double totalDiscountedPrice = 0;
 
-        for (Material material : materials) {
+        for (Material material : this) {
             totalDiscountedPrice += material.getRealMoney();
         }
 
@@ -41,7 +22,7 @@ public class MaterialManager {
     public double getTotalRegularPrice() {
         double totalRegularPrice = 0;
 
-        for (Material material : materials) {
+        for (Material material : this) {
             totalRegularPrice += material.getAmount();
         }
 
@@ -50,11 +31,6 @@ public class MaterialManager {
 
     public double getDiffPrice() {
         return getTotalRegularPrice() - getTotalDiscountedPrice();
-    }
-
-    @Override
-    public String toString() {
-        return materials.toString();
     }
 
 }

@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="mini test tuan2 md2">
+      <change afterPath="$PROJECT_DIR$/src/miniTest2/abc/MaterialManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniTest2/task2/CrispyFlour.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniTest2/task2/CrispyFlour.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniTest2/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniTest2/task2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniTest2/task2/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniTest2/task2/Material.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/miniTest2/task2/MaterialManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniTest2/task2/MaterialManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/miniTest2/task2/Meat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/miniTest2/task2/Meat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -153,7 +150,9 @@
       <workItem from="1680316829978" duration="6302000" />
       <workItem from="1680333175114" duration="23530000" />
       <workItem from="1680399306085" duration="978000" />
-      <workItem from="1680419291685" duration="7172000" />
+      <workItem from="1680419291685" duration="8328000" />
+      <workItem from="1680430996740" duration="14000" />
+      <workItem from="1680440370855" duration="1006000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1680315190602</created>
@@ -197,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680421445859</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mini test tuan2 md2">
+      <created>1680429772125</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680429772125</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
