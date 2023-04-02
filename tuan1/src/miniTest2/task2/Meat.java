@@ -20,7 +20,6 @@ public class Meat extends Material {
     }
 
     public void edit() {
-
         super.edit();
 
         Scanner input = new Scanner(System.in);
@@ -30,7 +29,7 @@ public class Meat extends Material {
 
         setWeight(newWeight);
 
-        System.out.println(this);
+        System.out.println("After edited: " + this);
     }
 
     @Override
@@ -45,7 +44,6 @@ public class Meat extends Material {
 
     @Override
     public double getRealMoney() {
-
         double amount = weight * getCost();
 
         LocalDate expiryDate = getExpiryDate();

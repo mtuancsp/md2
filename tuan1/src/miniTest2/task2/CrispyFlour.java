@@ -31,7 +31,7 @@ public class CrispyFlour extends Material {
 
         setQuantity(newQuantity);
 
-        System.out.println("Edited: \n" + this);
+        System.out.println("After edited: " + this);
     }
 
     @Override
@@ -46,7 +46,6 @@ public class CrispyFlour extends Material {
 
     @Override
     public double getRealMoney() {
-
         double amount = quantity * getCost();
 
         LocalDate expiryDate = getExpiryDate();

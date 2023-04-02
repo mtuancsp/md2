@@ -9,24 +9,26 @@ public class MaterialManager {
         materials = new ArrayList<>();
     }
 
-    public ArrayList<Material> getMaterials() {
-        return materials;
+    public Material get(int i) {
+        return materials.get(i);
     }
 
-    public void addMaterial(Material material) {
+    public void add(Material material) {
         materials.add(material);
     }
 
-    public void removeMaterial(Material material) {
-        materials.remove(material);
+    public Material remove(int i) {
+        var temp = materials.get(i);
+        materials.remove(i);
+        return temp;
     }
 
-    public void editMaterial(Material material) {
-        material.edit();
+    public void edit(int i) {
+        System.out.println("\nEdit material" + materials.get(i));
+        materials.get(i).edit();
     }
 
     public double getTotalDiscountedPrice() {
-
         double totalDiscountedPrice = 0;
 
         for (Material material : materials) {
@@ -37,7 +39,6 @@ public class MaterialManager {
     }
 
     public double getTotalRegularPrice() {
-
         double totalRegularPrice = 0;
 
         for (Material material : materials) {
@@ -49,6 +50,11 @@ public class MaterialManager {
 
     public double getDiffPrice() {
         return getTotalRegularPrice() - getTotalDiscountedPrice();
+    }
+
+    @Override
+    public String toString() {
+        return materials.toString();
     }
 
 }
