@@ -21,31 +21,34 @@ public class MaterialManager {
         materials.remove(material);
     }
 
-    //editInfo
     public void editMaterial(Material material) {
         material.edit();
     }
 
     public double getTotalDiscountedPrice() {
+
         double totalDiscountedPrice = 0;
+
         for (Material material : materials) {
             totalDiscountedPrice += material.getRealMoney();
         }
+
         return totalDiscountedPrice;
     }
 
     public double getTotalRegularPrice() {
+
         double totalRegularPrice = 0;
+
         for (Material material : materials) {
             totalRegularPrice += material.getAmount();
         }
+
         return totalRegularPrice;
     }
 
     public double getDiffPrice() {
         return getTotalRegularPrice() - getTotalDiscountedPrice();
     }
-
-
 
 }

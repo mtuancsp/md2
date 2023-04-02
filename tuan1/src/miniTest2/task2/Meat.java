@@ -20,9 +20,11 @@ public class Meat extends Material {
     }
 
     public void edit() {
+
         super.edit();
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("Enter new weight: ");
         int newWeight = input.nextInt();
 
@@ -49,10 +51,10 @@ public class Meat extends Material {
         LocalDate expiryDate = getExpiryDate();
         LocalDate today = LocalDate.now();
 
-        long daysBetween = today.until(expiryDate).getDays();
+        long daysToExpiration = today.until(expiryDate).getDays();
         double discountRate = 0.1;
 
-        if (daysBetween <= 5) {
+        if (daysToExpiration <= 5) {
             discountRate = 0.3;
         }
 

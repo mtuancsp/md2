@@ -36,12 +36,16 @@ public abstract class Material implements Discount {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Edit Material ID: " + getId());
+
         System.out.print("Enter new ID: ");
         String newId = input.nextLine();
+
         System.out.print("Enter new name: ");
         String newName = input.nextLine();
+
         System.out.print("Enter new manufacturing date: ");
         LocalDate newManufacturingDate = LocalDate.parse(input.nextLine());
+
         System.out.print("Enter new cost: ");
         int newCost = input.nextInt();
 

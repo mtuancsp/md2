@@ -5,6 +5,7 @@ import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 public class CrispyFlour extends Material {
+
     private int quantity;
 
     public CrispyFlour(String id, String name, String manufacturingDate, int cost, int quantity) {
@@ -43,23 +44,23 @@ public class CrispyFlour extends Material {
         return getManufacturingDate().plusYears(1);
     }
 
-
     @Override
     public double getRealMoney() {
 
         double amount = quantity * getCost();
+
         LocalDate expiryDate = getExpiryDate();
         LocalDate today = LocalDate.now();
 
-        long daysBetween = ChronoUnit.DAYS.between(today, expiryDate);
-
+        long daysToExpiration = ChronoUnit.DAYS.between(today, expiryDate);
 
         double discountRate = 0.05;
 
-        if (daysBetween <= 60) {
-            discountRate = 0.4;
-        } else if (daysBetween <= 120) {
+        if (daysToExpiration <= 120) {
             discountRate = 0.2;
+        }
+        if (daysToExpiration <= 60) {
+            discountRate = 0.4;
         }
 
         return amount * (1 - discountRate);
