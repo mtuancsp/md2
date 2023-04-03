@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="james">
-      <change afterPath="$PROJECT_DIR$/src/p11/Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p11/BracketValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +172,7 @@
       <workItem from="1680508086331" duration="5153000" />
       <workItem from="1680527306331" duration="482000" />
       <workItem from="1680528058722" duration="387000" />
-      <workItem from="1680528454924" duration="2751000" />
+      <workItem from="1680528454924" duration="4575000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1680315190602</created>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680515676767</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="james">
+      <created>1680531289367</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680531289367</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
