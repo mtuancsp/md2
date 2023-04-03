@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="james">
-      <change afterPath="$PROJECT_DIR$/src/p11/stack/MyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p11/stack/StackClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p11/DecimalToBinary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +154,7 @@
       <workItem from="1680440370855" duration="9372000" />
       <workItem from="1680483848818" duration="83000" />
       <workItem from="1680483962210" duration="12362000" />
-      <workItem from="1680508086331" duration="2130000" />
+      <workItem from="1680508086331" duration="4502000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1680315190602</created>
@@ -255,7 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680508309847</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="james">
+      <created>1680512939907</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680512939907</updated>
+    </task>
+    <task id="LOCAL-00016" summary="james">
+      <created>1680512948670</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1680512948670</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
