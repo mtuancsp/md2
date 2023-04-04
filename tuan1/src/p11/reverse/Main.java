@@ -21,6 +21,15 @@ public class Main {
 
         System.out.println(reversedStr);
 
+        // Test reverseString
+        String[] array = {"one", "two", "three", "four", "five"};
+        String[] reversedArray = Reverse.reverseArray(array);
+        System.out.println(Arrays.toString(reversedArray));
+
+        String str1 = "Hello";
+        var str1Reverse = String.join("",Reverse.reverseArray(str1.split("")));
+        System.out.println(str1Reverse);
+
     }
 }
 
