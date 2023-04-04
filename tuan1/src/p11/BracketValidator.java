@@ -5,10 +5,10 @@ import java.util.Stack;
 public class BracketValidator {
     public static boolean checkBracket1(String expression) {
         int count = 0;
-        for (char ch : expression.toCharArray()) {
-            if (ch == '(') {
+        for (char c : expression.toCharArray()) {
+            if (c == '(') {
                 count++;
-            } else if (ch == ')') {
+            } else if (c == ')') {
                 count--;
                 if (count < 0) return false;
             }
@@ -20,15 +20,14 @@ public class BracketValidator {
         Stack<Character> stack = new Stack<>();
 
         for (int i = 0; i < expression.length(); i++) {
-            char ch = expression.charAt(i);
-
-            if (ch == '(' || ch == '[' || ch == '{') {
-                stack.push(ch);
-            } else if (ch == ')' || ch == ']' || ch == '}') {
+            char c = expression.charAt(i);
+            if (c == '(' || c == '[' || c == '{') {
+                stack.push(c);
+            } else if (c == ')' || c == ']' || c == '}') {
                 if (stack.empty()) return false;
-                if ((ch == ')' && stack.peek() == '(') ||
-                    (ch == ']' && stack.peek() == '[') ||
-                    (ch == '}' && stack.peek() == '{')) {stack.pop();}
+                if ((c == ')' && stack.peek() == '(') ||
+                    (c == ']' && stack.peek() == '[') ||
+                    (c == '}' && stack.peek() == '{')) {stack.pop();}
                 else return false;
             }
         }
@@ -43,5 +42,6 @@ public class BracketValidator {
         System.out.println(checkBracket1("a*(b+c)"));
         System.out.println(checkBracket2("((a+b)*c)-(d/e)"));
         System.out.println(checkBracket1("((a+b)*c)-(d/e)"));
+        checkBracket1("{}");
     }
 }
