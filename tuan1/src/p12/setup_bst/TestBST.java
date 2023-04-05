@@ -3,17 +3,18 @@ package p12.setup_bst;
 public class TestBST {
     public static void main(String[] args) {
         //create a BST
-        BST<String> tree = new BST<>();
-        tree.insert("George");
-        tree.insert("Michael");
-        tree.insert("Tom");
-        tree.insert("Adam");
-        tree.insert("Jones");
-        tree.insert("Peter");
-        tree.insert("Daniel");
+        BST<Integer> tree = new BST<>();
+        tree.insert(27);
+        tree.insert(14);
+        tree.insert(35);
+        tree.insert(10);
+        tree.insert(19);
+        tree.insert(42);
+        tree.insert(31);
+
+        tree.delete(35);
         //traverse tree
-        System.out.println("Inorder (sorted): ");
-        tree.inorder();
-        System.out.println("The number of nodes is: " + tree.getSize());
+        tree.preorder(tree.root);
+
     }
 }

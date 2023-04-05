@@ -17,8 +17,7 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E> {
     public boolean insert(E e) {
         if (root == null) {
             root = createNewNode(e);
-        }
-        else {
+        } else {
             /*locate the parent node*/
             TreeNode<E> parent = null;
             TreeNode<E> current = root;
@@ -42,6 +41,7 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E> {
 
     }
 
+
     private TreeNode<E> createNewNode(E e) {
         return new TreeNode<>(e);
     }
@@ -59,7 +59,7 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E> {
     protected void inorder(TreeNode<E> root) {
         if (root == null) return;
         inorder(root.left);
-        System.out.println(root.element + " ");
+        System.out.print(root.element + " ");
         inorder(root.right);
     }
 
@@ -69,4 +69,79 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E> {
         postorder(root.right);
         System.out.print(root.element + " ");
     }
+
+    public void preorder(TreeNode<E> root) {
+        if (root == null) return;
+        System.out.print(root.element + " ");
+        preorder(root.left);
+        preorder(root.right);
+    }
+
+    public boolean delete(E e) {
+        // Tìm kiếm phần tử cần xóa và lưu lại node hiện tại và node cha của nó
+        TreeNode<E> current = root;
+        TreeNode<E> parent = null;
+        while (current != null) {
+            if (e.compareTo(current.element) < 0) {
+                parent = current;
+                current = current.left;
+            } else if (e.compareTo(current.element) > 0) {
+                parent = current;
+                current = current.right;
+            } else {
+                break; // phần tử cần xóa đã được tìm thấy
+            }
+        }
+
+        // Nếu phần tử cần xóa không tồn tại trong cây, trả về false
+        if (current == null) {
+            return false;
+        }
+
+        // Nếu phần tử cần xóa là lá hoặc chỉ có một con, xoá phần tử đó và nối con còn lại (nếu có) vào cha của nó
+        if (current.left == null) {
+            if (parent == null) {
+                root = current.right;
+            } else {
+                if (e.compareTo(parent.element) < 0) {
+                    parent.left = current.right;
+                } else {
+                    parent.right = current.right;
+                }
+            }
+
+        } else if (current.right == null) {
+            if (parent == null) {
+                root = current.left;
+            } else {
+                if (e.compareTo(parent.element) < 0) {
+                    parent.left = current.left;
+                } else {
+                    parent.right = current.left;
+                }
+            }
+
+        } else { // Nếu phần tử cần xóa có cả hai con
+            // Tìm phần tử lớn nhất ở cây con trái của phần tử cần xóa
+            TreeNode<E> maxNode = current.left;
+            TreeNode<E> maxNodeParent = current;
+            while (maxNode.right != null) {
+                maxNodeParent = maxNode;
+                maxNode = maxNode.right;
+            }
+
+            // Sao chép giá trị của phần tử lớn nhất vào phần tử cần xóa và xoá phần tử lớn nhất
+            current.element = maxNode.element;
+            if (maxNodeParent.right == maxNode) {
+                maxNodeParent.right = maxNode.left;
+            } else {
+                maxNodeParent.left = maxNode.left;
+            }
+        }
+
+        size--;
+        return true;
+    }
+
+
 }
