@@ -66,7 +66,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.Java",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -165,7 +165,7 @@
       <workItem from="1680578902468" duration="5665000" />
       <workItem from="1680590315958" duration="11547000" />
       <workItem from="1680614040608" duration="9451000" />
-      <workItem from="1680656646197" duration="440000" />
+      <workItem from="1680656646197" duration="1066000" />
     </task>
     <task id="LOCAL-00001" summary="a">
       <created>1680315190602</created>
@@ -356,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680624150438</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="james">
+      <created>1680657107333</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680657107333</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

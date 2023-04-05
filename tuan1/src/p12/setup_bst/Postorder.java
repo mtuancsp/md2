@@ -1,6 +1,7 @@
 package p12.setup_bst;
 
 public class Postorder {
+
     public static void main(String[] args) {
         BST<Integer> tree = new BST<>();
         tree.insert(27);
