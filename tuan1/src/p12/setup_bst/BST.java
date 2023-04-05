@@ -143,5 +143,36 @@ public class BST<E extends Comparable<E>> extends AbstractTree<E> {
         return true;
     }
 
+    //search
+    public boolean contains(E e) {
+        TreeNode<E> current = root;
+        while (current != null) {
+            if (e.compareTo(current.element) < 0) {
+                current = current.left;
+            } else if (e.compareTo(current.element) > 0) {
+                current = current.right;
+            } else {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    public TreeNode<E> search(E e) {
+        return search(root, e);
+    }
+
+    private TreeNode<E> search(TreeNode<E> node, E e) {
+        while (node != null && e.compareTo(node.element) != 0) {
+            if (e.compareTo(node.element) < 0) {
+                node = node.left;
+            } else {
+                node = node.right;
+            }
+        }
+        return node;
+    }
+
+
 
 }

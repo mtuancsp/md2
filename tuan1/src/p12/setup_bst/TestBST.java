@@ -16,5 +16,7 @@ public class TestBST {
         //traverse tree
         tree.preorder(tree.root);
 
+        System.out.println("\n" + tree.search(14));;
+
     }
 }
