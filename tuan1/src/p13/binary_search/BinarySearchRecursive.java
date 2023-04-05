@@ -7,6 +7,7 @@ public class BinarySearchRecursive {
         int[] arr = {10, 2, 3, 14, 20, 40, 75, 60, 7};
         int value = 40;
         Arrays.sort(arr);
+        System.out.println(Arrays.toString(arr));
         int index = binarySearchRecursive(arr, 0, arr.length - 1, value);
         System.out.println(index);
     }
