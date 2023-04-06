@@ -14,13 +14,11 @@ public class LongestSortedSubstring {
 
         currentSubstring.append(inputString.charAt(0));
 
-        char lastCharOfSubstring = currentSubstring.charAt(currentSubstring.length() - 1);
-
         for (int i = 1; i < inputString.length(); i++) {
 
             char currentChar = inputString.charAt(i);
 
-            if (currentChar >= lastCharOfSubstring) {
+            if (currentChar >= currentSubstring.charAt(currentSubstring.length() - 1)) {
 
                 currentSubstring.append(currentChar);
 
