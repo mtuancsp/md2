@@ -69,16 +69,19 @@ public class Sort {
     }
 
     public static void insertionSort(int[] arr, int left, int right) {
+        // Duyệt qua mảng từ vị trí left đến right
         for (int i = left + 1; i <= right; i++) {
-            int key = arr[i];
+            int key = arr[i]; // Lưu giá trị phần tử đang xét
             int j = i - 1;
+            // Di chuyển tất cả các phần tử lớn hơn giá trị phần tử đang xét về phía sau
             while (j >= left && arr[j] > key) {
                 arr[j + 1] = arr[j];
                 j--;
             }
-            arr[j + 1] = key;
+            arr[j + 1] = key; // Chèn giá trị phần tử đang xét vào vị trí đúng
         }
     }
+
 
     public static void main(String[] args) {
         int[] array = new int[10];
