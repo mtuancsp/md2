@@ -44,6 +44,8 @@ public class Palindrome {
 
         String str1 = "Able was I ere I saw Elba";
         System.out.println(isPalindrome(str1));
+        System.out.println(checkPalindrome(str1));
+
 
         String str2 = "Step on no pets";
         System.out.println(checkPalindrome(str2));
