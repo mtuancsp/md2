@@ -8,30 +8,28 @@ public class LongestSortedSubstring {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a string: ");
         String inputString = scanner.nextLine();
+        System.out.println(longestSubstringInOrder(inputString));
 
-        StringBuilder longestSortedSubstring = new StringBuilder();
-        StringBuilder currentSubstring = new StringBuilder();
+    }
 
-        currentSubstring.append(inputString.charAt(0));
+    public static String longestSubstringInOrder(String s) {
 
-        for (int i = 1; i < inputString.length(); i++) {
+        String longest = "";
+        String current = "";
 
-            char currentChar = inputString.charAt(i);
-
-            if (currentChar >= currentSubstring.charAt(currentSubstring.length() - 1)) {
-
-                currentSubstring.append(currentChar);
-
-                longestSortedSubstring = currentSubstring.length() > longestSortedSubstring.length() ?
-                                         currentSubstring : longestSortedSubstring;
-            }
-            else {
-                currentSubstring.setLength(0);
-                currentSubstring.append(currentChar);
+        for (int i = 0; i < s.length(); i++) {
+            if (current.isEmpty() || s.charAt(i) >= current.charAt(current.length() - 1)) {
+                current += s.charAt(i);
+                if (current.length() > longest.length()) {
+                    longest = current;
+                }
+            } else {
+                current = "" + s.charAt(i);
             }
         }
 
-        System.out.println("The longest sorted substring is: " + longestSortedSubstring);
+        return longest;
     }
+
 }
 
