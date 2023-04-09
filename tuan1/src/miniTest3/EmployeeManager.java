@@ -211,6 +211,7 @@ public class EmployeeManager extends ArrayList<Employee> {
         Scanner scanner = new Scanner(System.in);
 
         do {
+            System.out.println("\nDanh sách nhân viên");
             System.out.println("1. Danh sách toàn bộ nhân viên");
             System.out.println("2. Danh sách những con đỗ nghèo khỉ");
             System.out.println("3. Danh sách nhân viên toàn thời gian sắp xếp theo lương tăng dần");
