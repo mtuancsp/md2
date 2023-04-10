@@ -43,26 +43,26 @@ public class MaxIncreasingSubArray {
         char[] charArr = str.toCharArray();
         int n = charArr.length;
         int[] arr = new int[n];
+
         for (int i = 0; i < n; i++) {
             arr[i] = charArr[i];
         }
 
         int[] resultArr = maxIncreasingSub(arr);
         char[] resultCharArr = new char[resultArr.length];
+
         for (int i = 0; i < resultArr.length; i++) {
             resultCharArr[i] = (char) resultArr[i];
         }
         return String.valueOf(resultCharArr);
     }
 
-
     public static void main(String[] args) {
-        int[] nums = {1, 6, 8, 7, 2, 4, 3, 5};
-        int[] result = maxIncreasingSub(nums);
-        System.out.println(Arrays.toString(result));
+        int[] arr = {1, 6, 8, 7, 2, 4, 3, 5};
+        int[] result = maxIncreasingSub(arr);
+        System.out.println(Arrays.toString(result) + "\n");
 
-
-        String str = "Welcome";
+        String str = "aeiaaioaaaaeiiiiouuuooaauuaeiu";
         System.out.println(maxIncreasingSubString(str));
     }
 

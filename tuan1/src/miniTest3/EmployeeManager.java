@@ -121,9 +121,11 @@ public class EmployeeManager extends ArrayList<Employee> {
 
     public void sortFullTimeBySalary() {
         System.out.println("\nList of full-time employees by ascending salary");
+
         this.stream().filter(e -> e instanceof FulltimeEmployee)
-                .sorted(Comparator.comparingInt(Employee::getActualSalary))
-                .forEach(System.out::println);
+                     .sorted(Comparator.comparingInt(Employee::getActualSalary))
+                     .forEach(System.out::println);
+
         System.out.println();
     }
 
@@ -149,9 +151,7 @@ public class EmployeeManager extends ArrayList<Employee> {
                 case 3 -> updateEmployeeInfo();
                 case 4 -> deleteEmployee();
                 case 5 -> calculateSalary();
-                case 0 -> {
-                    return;
-                }
+                case 0 -> {return;}
             }
         } while (true);
     }
@@ -172,9 +172,7 @@ public class EmployeeManager extends ArrayList<Employee> {
                 case 2 ->
                         System.out.println("Tổng lương nhân viên part-time: " + calculateTotalPartTimeSalary() + "\n");
                 case 3 -> System.out.println("Lương trung bình của công ty: " + calculateAverageSalary() + "\n");
-                case 0 -> {
-                    return;
-                }
+                case 0 -> {return;}
             }
             Menu.returnOrExit();
         } while (true);
@@ -223,9 +221,7 @@ public class EmployeeManager extends ArrayList<Employee> {
                 case 1 -> displayAllEmployee();
                 case 2 -> listOfPoorBitch();
                 case 3 -> sortFullTimeBySalary();
-                case 0 -> {
-                    return;
-                }
+                case 0 -> {return;}
             }
 
             Menu.returnOrExit();

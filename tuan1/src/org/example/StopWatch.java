@@ -1,7 +1,5 @@
 package org.example;
 
-import java.util.Arrays;
-
 public class StopWatch {
     private long startTime;
     private long endTime;
@@ -28,8 +26,8 @@ public class StopWatch {
         stopwatch.start();
 //        Sort.bubbleSort(array);
 //        Sort.selectionSort(array);
-//        Sort.insertionSort(array, 0, array.length - 1);
-        Arrays.sort(array);
+        Sort.insertionSort(array, 0, array.length - 1);
+//        Arrays.sort(array);
 //        Sort.quickSort(array, 0, array.length - 1);
 //        System.out.println(Arrays.toString(array));
         stopwatch.stop();
