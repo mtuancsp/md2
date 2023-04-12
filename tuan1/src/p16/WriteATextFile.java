@@ -6,7 +6,7 @@ import java.io.IOException;
 public class WriteATextFile {
     public static void main(String[] args) {
         try {
-            FileWriter writer = new FileWriter("Hello.txt");
+            FileWriter writer = new FileWriter("CodeGym.txt");
             writer.write("Hello!");
             writer.close();
         } catch (IOException e) {

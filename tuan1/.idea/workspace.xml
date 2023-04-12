@@ -5,10 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="james">
-      <change afterPath="$PROJECT_DIR$/countries.CSV" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p16/ReadCSVFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tuan/tuan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/ASUS.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/filename.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/products.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Buffer/BIS_BOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Buffer/CharArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Buffer/DIS_DOS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Buffer/ReadFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Buffer/WriteFileExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p16/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/CopyFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/DataInputOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/InputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/OutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/ReadByteConsole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/TestFileStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/object/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/object/ObjectInputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/object/ObjectOutputStreamExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/object/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/student/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p17/student/students.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hello.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CodeGym.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/tuan1/p15/ArrayExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/tuan1/p15/ArrayExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scores.txt" beforeDir="false" afterPath="$PROJECT_DIR$/scores.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p15/ArrayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p15/ArrayExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p16/ReadATextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p16/ReadATextFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p16/TestDataOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p16/TestDataOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p16/WriteATextFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p16/WriteATextFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +75,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/p17/object/Main.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,6 +101,7 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -68,7 +112,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.Java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -200,14 +244,28 @@
       <workItem from="1681088923614" duration="25000" />
       <workItem from="1681088969124" duration="18327000" />
       <workItem from="1681121048219" duration="103000" />
-      <workItem from="1681131749009" duration="8886000" />
-    </task>
-    <task id="LOCAL-00003" summary="a">
-      <created>1680323064390</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1680323064390</updated>
+      <workItem from="1681131749009" duration="8935000" />
+      <workItem from="1681141386959" duration="321000" />
+      <workItem from="1681175212147" duration="6573000" />
+      <workItem from="1681195077682" duration="7861000" />
+      <workItem from="1681204330373" duration="934000" />
+      <workItem from="1681205277421" duration="604000" />
+      <workItem from="1681205895469" duration="601000" />
+      <workItem from="1681206560080" duration="485000" />
+      <workItem from="1681207053666" duration="46000" />
+      <workItem from="1681207109237" duration="2000" />
+      <workItem from="1681207160645" duration="364000" />
+      <workItem from="1681207546927" duration="8000" />
+      <workItem from="1681208329619" duration="24000" />
+      <workItem from="1681208383405" duration="133000" />
+      <workItem from="1681208525577" duration="11000" />
+      <workItem from="1681208599317" duration="145000" />
+      <workItem from="1681219424583" duration="6474000" />
+      <workItem from="1681227307613" duration="25000" />
+      <workItem from="1681262124255" duration="2566000" />
+      <workItem from="1681268278567" duration="3641000" />
+      <workItem from="1681272443363" duration="1000" />
+      <workItem from="1681308010239" duration="2364000" />
     </task>
     <task id="LOCAL-00004" summary="mini test tuan2 md2">
       <created>1680360395560</created>
@@ -545,7 +603,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681140284214</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="james">
+      <created>1681141113555</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1681141113555</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

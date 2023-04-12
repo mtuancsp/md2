@@ -21,11 +21,12 @@ public class ArrayExample {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("\nNhập vào chỉ số một phần tử bất kì của mảng: ");
-        int index = scanner.nextInt();
+
         try {
+            int index = scanner.nextInt();
             System.out.println("Giá trị của phần tử " + index + " là: " + arr[index]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Không tìm thấy vị trí của phần tử " + index);
+        } catch (Exception e) {
+            System.out.println("Chỉ số nhập vào không hợp lệ!");
         }
     }
 }

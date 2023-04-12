@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class ReadATextFile {
     public static void main(String[] args) {
         try {
-            File file = new File("Hello.txt");
+            File file = new File("CodeGym.txt");
             FileReader fileReader = new FileReader(file);
 
             BufferedReader reader = new BufferedReader(fileReader);
