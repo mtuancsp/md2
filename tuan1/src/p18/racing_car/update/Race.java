@@ -13,7 +13,6 @@ public class Race {
     private final List<Car> cars;
     private final Map<Car, Integer> positions;
     private final CountDownLatch startLatch;
-    private boolean started;
     private long startTime;
 
     public Race(int distance, int step, List<Car> cars) {
@@ -22,7 +21,6 @@ public class Race {
         this.cars = cars;
         this.positions = new HashMap<>();
         this.startLatch = new CountDownLatch(1);
-        this.started = false;
     }
 
     public void start() {
@@ -33,7 +31,6 @@ public class Race {
         }
         startLatch.countDown();
         startTime = System.currentTimeMillis();
-        started = true;
     }
 
     public void awaitStart() throws InterruptedException {
@@ -67,24 +64,23 @@ public class Race {
             Arrays.fill(row, ' ');
         }
 
-        // Draw the top and bottom border of the track
         Arrays.fill(raceTrack[0], '-');
         Arrays.fill(raceTrack[raceTrack.length - 1], '-');
 
-        // Draw the vertical bars
         for (int i = 1; i < raceTrack.length - 1; i++) {
             raceTrack[i][0] = '|';
             raceTrack[i][raceTrack[0].length - 1] = '|';
         }
 
-        // Place the cars on the track
         for (int i = 0; i < cars.size(); i++) {
             Car car = cars.get(i);
             int position = positions.get(car) / step + 1;
+            if (position > raceTrack[0].length - 2) {
+                position = raceTrack[0].length - 2;
+            }
             raceTrack[i + 1][position] = car.getName().charAt(0);
         }
 
-        // Draw the track
         StringBuilder sb = new StringBuilder();
         for (char[] row : raceTrack) {
             sb.append(row);
@@ -92,6 +88,8 @@ public class Race {
         }
         System.out.print(sb);
     }
+
+
 
 
     private boolean allFinished() {

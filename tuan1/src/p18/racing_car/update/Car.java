@@ -19,7 +19,7 @@ public class Car implements Runnable {
         try {
             race.awaitStart();
             while (distance < race.getDistance()) {
-                int speed = (new Random()).nextInt(20);
+                int speed = (new Random()).nextInt(19) + 1;
                 distance += speed;
                 race.updatePosition(this, distance);
                 TimeUnit.SECONDS.sleep(1);
