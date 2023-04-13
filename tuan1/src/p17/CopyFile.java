@@ -10,7 +10,8 @@ public class CopyFile {
         Files.copy(source.toPath(), destination.toPath(), StandardCopyOption.REPLACE_EXISTING);
     }
 
-    private static void copyFileUsingStream(File source, File destination) throws IOException {
+    private static int copyFileUsingStream(File source, File destination) throws IOException {
+        int count = 0;
         try (InputStream is = new FileInputStream(source);
              OutputStream os = new FileOutputStream(destination))
         {
@@ -18,8 +19,10 @@ public class CopyFile {
             int length;
             while ((length = is.read(buffer)) > 0) {
                 os.write(buffer, 0, length);
+                count++;
             }
         }
+        return count;
     }
 
     public static void main(String[] args) {
