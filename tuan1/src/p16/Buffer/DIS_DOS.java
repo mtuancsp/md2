@@ -10,13 +10,17 @@ public class DIS_DOS {
             // Ghi dữ liệu
             dos.writeUTF("Hello");
             dos.writeInt(123);
+            dos.writeInt(456);
 
             // Đọc dữ liệu
             String str = dis.readUTF();
             int num = dis.readInt();
+            int num2 = dis.readInt();
+
 
             System.out.println(str);
             System.out.println(num);
+            System.out.println(num2);
         }
 
     }

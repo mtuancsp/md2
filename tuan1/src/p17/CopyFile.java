@@ -19,11 +19,12 @@ public class CopyFile {
             int length;
             while ((length = is.read(buffer)) > 0) {
                 os.write(buffer, 0, length);
-                count++;
+                count += length;
             }
         }
         return count;
     }
+
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -38,8 +39,8 @@ public class CopyFile {
         File destinationFile = new File(destination);
 
         try {
-            copyFileUsingFiles(sourceFile, destinationFile);
-            System.out.println("File copied successfully");
+            var bytes = copyFileUsingStream(sourceFile, destinationFile);
+            System.out.println("File copied successfully " + bytes + " bytes");
         } catch (IOException e) {
             System.out.println("Could not copy file");
             System.out.println(e.getMessage());
