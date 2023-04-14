@@ -2,7 +2,7 @@ package p18.racing_car;
 
 public class Main {
     public static final int DISTANCE = 100;
-    public static final int STEP = 2;
+    public static final int STEP = 1;
     public static void main(String[] args) {
         Car carA = new Car("A");
         Car carB = new Car("B");

@@ -17,9 +17,7 @@ public class Car implements Runnable{
 
         while (ranDistance < DISTANCE) {
             try {
-                int speed = (int) (Math.random() * 20);
-
-                ranDistance += speed;
+                int speed = (int) (Math.random() * 20 + 1);
 
                 //Vẽ đường xe đã đi
                 String log = "|";
@@ -35,10 +33,12 @@ public class Car implements Runnable{
                 }
                 log += "|";
                 System.out.println(log + " " + Math.min(DISTANCE, ranDistance) + "km");
-                String line2 = "--------------------------------------------------------";
+                String line2 = "------------------------------------------------------------------------------------------------------";
                 System.out.println(line2);
-
                 Thread.sleep(1000);
+
+                ranDistance += speed;
+
             } catch (InterruptedException e) {
                 System.out.println("Car " + name + " broken...");
                 break;
