@@ -18,14 +18,12 @@ public class Car implements Runnable{
         while (ranDistance < DISTANCE) {
             try {
                 int speed = (int) (Math.random() * 20 + 1);
-
                 //Vẽ đường xe đã đi
                 String log = "|";
-                int percentTraveled = ranDistance*100/DISTANCE;
                 for (int i = 0; i < DISTANCE; i += STEP) {
-                    if (percentTraveled >= i + STEP) {
+                    if (i < ranDistance) {
                         log += "=";
-                    } else if (percentTraveled >= i && percentTraveled <= i + STEP) {
+                    } else if (i == ranDistance) {
                         log += name;
                     } else {
                         log += " ";
