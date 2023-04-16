@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f2b1ffd-4ddf-4018-a2c5-d32a562855c5" name="Changes" comment="james">
-      <change afterPath="$PROJECT_DIR$/src/p19/CrawlSongExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/p19/ClassName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p19/validate_account/AccountValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p19/validate_account/AccountValidatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
     &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/md2/tuan1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Codegym/md2/minitest4&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -237,14 +236,13 @@
       <workItem from="1681434250200" duration="7720000" />
       <workItem from="1681454208380" duration="7021000" />
       <workItem from="1681526459496" duration="3447000" />
-      <workItem from="1681543140898" duration="1026000" />
-    </task>
-    <task id="LOCAL-00011" summary="james">
-      <created>1680491134553</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1680491134553</updated>
+      <workItem from="1681543140898" duration="2599000" />
+      <workItem from="1681612828352" duration="1000000" />
+      <workItem from="1681615607295" duration="12000" />
+      <workItem from="1681616830646" duration="1812000" />
+      <workItem from="1681628581138" duration="4461000" />
+      <workItem from="1681649907458" duration="622000" />
+      <workItem from="1681650851020" duration="1089000" />
     </task>
     <task id="LOCAL-00012" summary="james">
       <created>1680493719736</created>
@@ -582,7 +580,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681444093811</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="james">
+      <created>1681547264743</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1681547264744</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
